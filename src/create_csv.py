@@ -79,7 +79,7 @@ def create_login_names(qty=150):
 
 
 if __name__ == "__main__":
-    data = create_list(qty=10640000) #10640000
+    data = create_list(qty=5640000) #10640000
     print(len(data))
     save_csv(data, filename="sessions.csv")
 #     login_names = create_login_names()
