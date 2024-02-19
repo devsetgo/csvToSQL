@@ -48,7 +48,7 @@ def generate_random_string(length):
 
 
 
-def save_csv(data, filename="sessions.csv"):
+def save_csv(data, filename="sample.csv"):
     import csv
     with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
